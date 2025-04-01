@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
 
-## Project info
+# Crescita CRM - Business Growth Platform
 
-**URL**: https://lovable.dev/projects/d9f2e0b3-bac5-4ab3-9942-98bb1d22129e
+<div align="center">
+  <img src="public/crescita-logo.svg" alt="Crescita Logo" width="250" />
+  <h3>All-in-one CRM solution for business growth</h3>
+</div>
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+Crescita is a comprehensive CRM and business growth platform designed to help professionals streamline operations, track performance, and manage client relationships. With a modern user interface and a rich feature set, Crescita provides all the tools you need to scale your business effectively.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d9f2e0b3-bac5-4ab3-9942-98bb1d22129e) and start prompting.
+- **Dashboard**: Get a complete overview of your business with key metrics, revenue charts, and upcoming activities
+- **KPI Tracker**: Monitor and analyze your key performance indicators
+- **Finance**: Track revenue, expenses, and financial performance
+- **CRM**: Manage your customer relationships with advanced contact management
+- **Client Management**: View client details and track interactions
+- **Invoice**: Create, send, and track invoices
+- **Reports**: Generate comprehensive business reports and analytics
+- **Opportunity**: Track and manage potential business opportunities
+- **Calendar**: Schedule and manage appointments and events
+- **Crescita AI**: Leverage AI to optimize your business processes
+- **Crescita Club**: Access exclusive offers and benefits for members
+- **Contacts**: Organize and maintain your professional network
+- **Community Updates**: Stay informed about the latest features and news
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- TanStack React Query
+- Recharts
+- shadcn/ui
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v16 or newer)
+- npm or yarn package manager
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/crescita-crm.git
+cd crescita-crm
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies
+```bash
+npm install
+# or with yarn
+yarn install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server
+```bash
+npm run dev
+# or with yarn
+yarn dev
+```
 
-**Use GitHub Codespaces**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+crescita-crm/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # Reusable UI components
+│   │   ├── dashboard/   # Dashboard-specific components
+│   │   ├── layout/      # Layout components (sidebar, topbar)
+│   │   └── ui/          # UI component library
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions and libraries
+│   ├── pages/           # Page components for each route
+│   ├── App.tsx          # Main application component
+│   └── main.tsx         # Application entry point
+├── README.md            # This file
+└── package.json         # Project dependencies and scripts
+```
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To build the application for production:
 
-## How can I deploy this project?
+```bash
+npm run build
+# or with yarn
+yarn build
+```
 
-Simply open [Lovable](https://lovable.dev/projects/d9f2e0b3-bac5-4ab3-9942-98bb1d22129e) and click on Share -> Publish.
+This will create a `dist` directory with the compiled assets ready for deployment.
 
-## Can I connect a custom domain to my Lovable project?
+## Contributing
 
-Yes it is!
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Project Link: [https://github.com/your-username/crescita-crm](https://github.com/your-username/crescita-crm)
